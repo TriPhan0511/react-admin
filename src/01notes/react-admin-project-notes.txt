@@ -1,0 +1,11 @@
+1. Dependencies
+npm i @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material react-router-dom@6 react-pro-sidebar formik yup @fullcalendar/core @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo
+
+npm i @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material 
+npm i react-router-dom@6
+npm i react-pro-sidebar
+npm i formik yup
+npm i @fullcalendar/core @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list
+npm i @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo
+
+

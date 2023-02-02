@@ -1,6 +1,10 @@
-function App() {
+import React from 'react'
+
+const App = () => {
   return (
-    <><h1>Hello</h1></>
+    <div>
+      App
+    </div>
   )
 }
 
