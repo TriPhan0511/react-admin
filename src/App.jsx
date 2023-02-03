@@ -1,15 +1,13 @@
 import React from 'react'
-import Dashboard from './scenes/dashboard'
-import Sidebar from './scenes/global/Sidebar'
-import Topbar from './scenes/global/Topbar'
+import { ColorModeContext, useMode } from './theme'
+import { CssBaseline, ThemeProvider } from '@mui/material'
 
 const App = () => {
+	const [theme, colorMode] = useMode()
 	return (
-		<div className='app'>
-			<Sidebar />
-			<Topbar />
-			<Dashboard />
-		</div>
+		<ColorModeContext.Provider value={colorMode}>
+			<div className='app'></div>
+		</ColorModeContext.Provider>
 	)
 }
 
